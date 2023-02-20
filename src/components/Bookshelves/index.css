@@ -1,0 +1,125 @@
+.bookshelves-container {
+  background-color: #e5e5e5;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 80px;
+  background-size: cover;
+  justify-content: center;
+}
+.rectangle {
+  background-color: #ffffff;
+  height: 90vh;
+  width: 150px;
+  padding-left: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.rec-button {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  color: #475569;
+  font-size: 11px;
+}
+.rec-heading {
+  color: #334155;
+  font-size: 13px;
+}
+.icon {
+  height: 12px;
+  width: 12px;
+}
+.input {
+  border: 1px solid #cbd5e1;
+}
+.button-icon {
+  background: #edeff1;
+  border-radius: 0px 3px 3px 0px;
+  border: 1px solid #cbd5e1;
+  cursor: pointer;
+  outline: none;
+  margin-top: 16px;
+  height: 30px;
+}
+.book-heading {
+  color: #334155;
+  font-size: 18px;
+  margin-left: 40px;
+}
+.book-search {
+  display: flex;
+  justify-content: space-between;
+  width: 538px;
+  margin-left: 10px;
+}
+.books-list-container {
+  width: 780px;
+  margin-left: 10px;
+}
+.booklist-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.no-books-image {
+  height: 250px;
+  width: 300px;
+  margin-left: 40px;
+}
+.no-list-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bookshelves-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.min-bookshelves-tags {
+  display: none;
+}
+.no-books-desc {
+  margin-left: 50px;
+}
+
+@media (max-width: 576px) {
+  .bookshelves-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+  }
+  .rectangle {
+    display: none;
+  }
+  .book-heading {
+    display: none;
+  }
+  .booklist-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .book-search {
+    margin-left: 57px;
+  }
+  .min-bookshelves-tags {
+    display: block;
+    width: 200px;
+  }
+  .min-tags-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .min-tag-heading {
+    color: #334155;
+    font-size: 14px;
+  }
+}

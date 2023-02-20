@@ -1,0 +1,15 @@
+.img {
+  height: 13px;
+  width: 13px;
+  margin-right: 10px;
+}
+.footer-container {
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  font-size: 12px;
+}

@@ -1,0 +1,59 @@
+.star-rating-item {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.star-icon-item {
+  height: 9px;
+  width: 9px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.rating-item {
+  margin-top: 0px;
+  font-size: 8px;
+  margin-bottom: 0px;
+}
+.list-container-item {
+  list-style-type: none;
+  display: flex;
+  margin-right: 140px;
+  width: 230px;
+}
+.image-item {
+  height: 150px;
+  width: 120px;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.item-title-item {
+  font-size: 14px;
+  color: #334155;
+}
+.item-author-item {
+  font-size: 10px;
+  color: #475569;
+  margin-right: 7px;
+}
+.rating-container-item {
+  display: flex;
+  margin-top: 0px;
+}
+.item-status-item {
+  color: #0284c7;
+  font-size: 8px;
+}
+.status-container-item {
+  display: flex;
+  margin-top: 0px;
+}
+.combine-item {
+  margin-top: 0px;
+}
+.button-image-item {
+  background-color: transparent;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+}

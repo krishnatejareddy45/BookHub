@@ -1,0 +1,28 @@
+.not-found-container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-image {
+  height: 100px;
+  width: 100px;
+}
+.not-heading {
+  color: #334155;
+  font-size: 14px;
+}
+.not-desc {
+  color: #475569;
+  font-size: 10px;
+}
+.not-button {
+  background-color: #0284c7;
+  color: white;
+  border-width: 0px;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}

@@ -1,0 +1,122 @@
+.book-item-container-desc {
+  background-color: #e5e5e5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-details-container-desc {
+  width: 800px;
+  background-color: white;
+  height: 620px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-bottom: 14px;
+}
+.item-images-desc {
+  height: 230px;
+  width: 200px;
+  border-radius: 3px;
+  margin-right: 11px;
+}
+.item-star-rating-desc {
+  display: flex;
+  margin-top: 18px;
+}
+.item-star-desc {
+  height: 18px;
+  width: 18px;
+  margin-right: 6px;
+}
+.item-rating-desc {
+  font-size: 16px;
+  margin-top: 0px;
+  color: #475569;
+}
+.author-name-desc {
+  font-size: 19px;
+}
+.item-avg-rating-star-desc {
+  display: flex;
+}
+.avg-rating-desc {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #475569;
+}
+
+.status-desc {
+  color: #475569;
+  font-size: 17px;
+}
+.span-desc {
+  color: #0284c7;
+}
+.title-desc {
+  color: #334155;
+  font-size: 22px;
+}
+.both-desc {
+  display: flex;
+}
+.line-desc {
+  background-color: #94a3b8;
+}
+.author-title-desc {
+  color: #334155;
+  font-size: 17px;
+  align-self: flex-start;
+}
+.author-desc {
+  font-size: 15px;
+  color: #475569;
+  align-self: flex-start;
+}
+@media (max-width: 576px) {
+  .both-desc {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-author-rating-status {
+    text-align: center;
+  }
+  .book-item-container-desc {
+    height: 170vh;
+    width: 420px;
+  }
+  .book-details-container-desc {
+    margin-top: 0px;
+    background-color: transparent;
+    height: 220vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 420px;
+  }
+  .item-images-desc {
+    margin-left: 25px;
+  }
+  .item-avg-rating-star-desc {
+    display: flex;
+    justify-content: center;
+  }
+  .author-desc {
+    font-size: 12px;
+    margin-left: 250px;
+    width: 260px;
+  }
+
+  .author-title-desc {
+    font-size: 14px;
+    margin-left: 250px;
+  }
+
+  .author-name-desc {
+    font-size: 10px;
+  }
+}
